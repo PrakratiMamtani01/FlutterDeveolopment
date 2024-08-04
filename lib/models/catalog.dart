@@ -1,5 +1,17 @@
+class CatalogModel {
+  static final items = [
+    Item(
+        id: 1,
+        name: "name",
+        desc: "desc",
+        price: 1,
+        color: "color",
+        imageUrl: "imageUrl")
+  ];
+}
+
 class Item {
-  final String id;
+  final int id;
   final String name;
   final String desc;
   final num price;
@@ -14,13 +26,3 @@ class Item {
       required this.color,
       required this.imageUrl});
 }
-
-final products = [
-  Item(
-      id: "id",
-      name: "name",
-      desc: "desc",
-      price: 1,
-      color: "color",
-      imageUrl: "imageUrl")
-];
