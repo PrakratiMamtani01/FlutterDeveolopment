@@ -12,13 +12,13 @@ class MyDrawer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Drawer(
         child: Container(
-      color: Colors.deepPurple,
+      color: Colors.teal,
       child: ListView(
         children: [
           DrawerHeader(
             padding: EdgeInsets.zero,
             child: UserAccountsDrawerHeader(
-              decoration: BoxDecoration(color: Colors.deepPurple),
+              decoration: BoxDecoration(color: Colors.teal),
               margin: EdgeInsets.zero,
               accountName: Text("Prakrati Mamtani"),
               accountEmail: Text("pm3484@nyu.edu"),
