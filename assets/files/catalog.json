@@ -1,0 +1,52 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Zamioculcas Zamiifolia",
+            "desc": "this houseplant is so easy to maintain & tolerates low light.",
+            "price": 4.3,
+            "color": "#FFFFFF",
+            "imageURL": "https://m.media-amazon.com/images/I/71x311i9AWL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Pachira",
+            "desc": "Costa Farms Money Tree, Easy Care Indoor Plant, Live Houseplant in Ceramic Planter Pot, Bonsai Potted in Potting Soil, Home Décor, Birthday Gift, New Home Gift, Outdoor Garden Gift, 16-Inches Tall.",
+            "price": 33.64,
+            "color": "#FFFFFF",
+            "imageURL": "https://m.media-amazon.com/images/I/7151Br9WAeL._AC_SX679_.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Palm",
+            "desc": "LOMANTO Fake Majesty Palm Plant 4Ft Artificial Plants for Home Decor Indoor Faux Palm Trees in Pot Fake Tropical Plants for Housewarming Gift 1Pack.",
+            "price": 60,
+            "color": "#964B00",
+            "imageURL": "https://m.media-amazon.com/images/I/71f2fmfMP6L._AC_SX679_.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Peace Lily",
+            "desc": "Costa Farms Peace Lily, Live Indoor Plant with Flowers, Easy to Grow Houseplant in Decorative Pot, Potting Soil, Thinking of You, Get Well Soon Gift, Room Decor, 1 Foot Tall",
+            "price": 24.25,
+            "color": "#FFFFFF",
+            "imageURL": "https://m.media-amazon.com/images/I/71-SQRV7auL._AC_SX679_.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Sansevieria",
+            "desc": "Live Snake Plant, Sansevieria trifasciata Laurentii, Fully Rooted Indoor House Plant in Pot, Mother in Law Tongue Sansevieria Plant, Potted Succulent Plants, Sansevieria laurentii by Plants for Pets.",
+            "price": 17.24,
+            "color": "#000000",
+            "imageURL": "https://m.media-amazon.com/images/I/61L-X1PalvL._AC_SX679_.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Rose, Eucalyptusa",
+            "desc": "YJ Fake Flowers with Vase, Artificial Flowers Silk Roses Flower Bouquet in Vase, Faux Flower Arrangements,Farmhouse Table Decor,Table Decorations for Living Room,Coffee Table Decor(Pink).",
+            "price": 26.99,
+            "color": "#FFB6C1",
+            "imageURL": "https://m.media-amazon.com/images/I/71gV7+P3pUL._AC_SX679_.jpg"
+        }
+    ]
+}
