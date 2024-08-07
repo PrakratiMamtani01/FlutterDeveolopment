@@ -54,7 +54,11 @@ class _HomePageState extends State<HomePage> {
               SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
           itemCount: CatalogModel.items.length,
           itemBuilder: (context, index) {
-            return ItemWidget(item: CatalogModel.items[index]);
+            return (CatalogModel.items != null && CatalogModel.items.isNotEmpty)
+                ? ItemWidget(item: CatalogModel.items[index])
+                : Center(
+                    child: CircularProgressIndicator(),
+                  );
           }),
       drawer: MyDrawer(),
     );

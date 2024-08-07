@@ -15,4 +15,5 @@ class MyTheme {
   }
 
   static Color rosePink = Color.fromARGB(255, 249, 186, 181);
+  static Color pastelGreen = Color.fromARGB(255, 162, 192, 148);
 }
