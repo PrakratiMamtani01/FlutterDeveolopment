@@ -1,8 +1,10 @@
 import 'dart:convert';
 
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_application_1/models/catalog.dart';
+import 'package:flutter_application_1/utils/routes.dart';
 import 'package:flutter_application_1/utils/themes.dart';
 import 'package:flutter_application_1/widgets/drawer.dart';
 import 'package:flutter_application_1/widgets/item_widget.dart';
@@ -61,6 +63,11 @@ class _HomePageState extends State<HomePage> {
                   );
           }),
       drawer: MyDrawer(),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () => Navigator.pushNamed(context, MyRoute.cartPage),
+        backgroundColor: MyTheme.pastelGreen,
+        child: Icon(CupertinoIcons.cart),
+      ),
     );
   }
 }

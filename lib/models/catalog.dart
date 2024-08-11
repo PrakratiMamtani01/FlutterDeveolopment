@@ -6,8 +6,14 @@ class CatalogModel {
         desc: "this houseplant is so easy to maintain & tolerates low light.",
         price: 4.3,
         color: "#FFFFFF",
-        imageUrl: "https://m.media-amazon.com/images/I/71x311i9AWL._AC_UF1000,1000_QL80_.jpg")
+        imageUrl:
+            "https://m.media-amazon.com/images/I/71x311i9AWL._AC_UF1000,1000_QL80_.jpg")
   ];
+
+  Item getById(int id) {
+    Item result = items.firstWhere((element) => element.id == id, orElse: null);
+    return result;
+  }
 }
 
 class Item {
