@@ -52,8 +52,8 @@ class _HomePageState extends State<HomePage> {
         ),
       ),
       body: GridView.builder(
-          gridDelegate:
-              SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
+          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: 2, childAspectRatio: 0.75),
           itemCount: CatalogModel.items.length,
           itemBuilder: (context, index) {
             return (CatalogModel.items != null && CatalogModel.items.isNotEmpty)
