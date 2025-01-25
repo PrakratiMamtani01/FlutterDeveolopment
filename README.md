@@ -6,8 +6,11 @@ Welcome to my digital flower shop. This is a Flutter based e-commerce applicatio
 - Flutter
 - Firebase
 
-![Project Screenshot](FlutterDev1.png)
-![Project Screenshot2](FlutterDev2.png)
+<div>
+  <img src="documentation/FlutterDev1.png" alt="Alt text" width="300" height="600" />
+  <img src="documentation/FlutterDev2.png" alt="Alt text" width="300" height="600" />
+</div>
+
 
 
 # Installation ⚙️
